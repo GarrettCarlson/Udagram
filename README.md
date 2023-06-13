@@ -24,7 +24,11 @@ Udagram is a social networking application for sharing photos.
 ![AWS S3 Frontend](/screenshots/aws_s3_overview.jpg?raw=true)
 
 ## Link to the Hosted Application
-[link]http://myawsbucket-1234509823456.s3-website-us-east-1.amazonaws.com/
+http://myawsbucket-1234509823456.s3-website-us-east-1.amazonaws.com/
+
+## CircleCI Secrets Management
+Secrets are configured in CircleCI through environment variables and are not present in the source code.
+![CircleCI Secrets](/screenshots/circleci_secrets.jpg?raw=true)
 
 ### Dependencies
 
