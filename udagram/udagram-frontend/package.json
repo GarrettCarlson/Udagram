@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
+  "engines": {
+    "node": "16.14.0"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -12,7 +15,6 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
   "dependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14",
