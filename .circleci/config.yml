@@ -51,7 +51,7 @@ jobs:
       - run:
           name: Set EB Environment Variables
           command: |
-            eb init
+            eb init --platform node.js --region ${AWS_REGION}
             eb use udagram-api-dev
             eb setenv AWS_BUCKET = ${AWS_BUCKET}
             eb setenv AWS_PROFILE = ${AWS_PROFILE}
